@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人展示 - 毛玻璃效果网页</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 背景装饰元素 -->
+    <div class="background">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+        <div class="bg-circle circle-3"></div>
+        <div class="bg-circle circle-4"></div>
+    </div>
+
+    <!-- 主内容区域 -->
+    <main class="container">
+        <!-- 左侧个人信息区域 -->
+        <section class="profile-card glass-effect">
+            <div class="profile-header">
+                <div class="avatar-container">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="个人头像" class="avatar">
+                    <div class="status-indicator"></div>
+                </div>
+                <h1 class="name">张明</h1>
+                <p class="title">前端开发工程师</p>
+                <div class="location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>北京, 中国</span>
+                </div>
+            </div>
+            
+            <div class="profile-details">
+                <div class="detail-item">
+                    <i class="fas fa-user"></i>
+                    <div class="detail-content">
+                        <h3>个人信息</h3>
+                        <p>28岁，5年前端开发经验</p>
+                    </div>
+                </div>
+                
+                <div class="detail-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="detail-content">
+                        <h3>教育背景</h3>
+                        <p>清华大学 - 计算机科学与技术</p>
+                    </div>
+                </div>
+                
+                <div class="detail-item">
+                    <i class="fas fa-briefcase"></i>
+                    <div class="detail-content">
+                        <h3>当前职位</h3>
+                        <p>某科技公司 - 高级前端工程师</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills">
+                <h3><i class="fas fa-code"></i> 技能专长</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML/CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Vue.js</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">UI/UX设计</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 右侧内容区域 -->
+        <section class="content-area">
+            <!-- 联系方式卡片 -->
+            <div class="contact-card glass-effect">
+                <h2><i class="fas fa-address-card"></i> 联系方式</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>电子邮件</h4>
+                            <p>zhangming@example.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>电话</h4>
+                            <p>+86 138 0000 0000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-weixin"></i>
+                        <div>
+                            <h4>微信</h4>
+                            <p>zhangming_tech</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>个人网站</h4>
+                            <p>www.zhangming.dev</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 社交媒体链接 -->
+            <div class="social-card glass-effect">
+                <h2><i class="fas fa-share-alt"></i> 社交媒体</h2>
+                <p class="social-description">通过以下平台关注我或查看我的项目</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" class="social-btn github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                        <p>查看我的代码仓库和开源项目</p>
+                    </a>
+                    
+                    <a href="https://bilibili.com" target="_blank" class="social-btn bilibili">
+                        <i class="fas fa-play-circle"></i>
+                        <span>哔哩哔哩</span>
+                        <p>观看我的技术分享视频</p>
+                    </a>
+                    
+                    <a href="https://linkedin.com" target="_blank" class="social-btn linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                        <p>查看我的职业经历</p>
+                    </a>
+                    
+                    <a href="https://twitter.com" target="_blank" class="social-btn twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                        <p>关注我的最新动态</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 个人简介 -->
+            <div class="bio-card glass-effect">
+                <h2><i class="fas fa-user-edit"></i> 个人简介</h2>
+                <div class="bio-content">
+                    <p>我是一名热衷于前端开发的技术爱好者，拥有5年以上的Web开发经验。专注于创建美观、响应式且用户友好的界面。</p>
+                    <p>我热衷于学习新技术，喜欢参与开源项目，并定期在技术社区分享我的知识和经验。目前主要研究领域包括现代JavaScript框架、Web性能优化和用户体验设计。</p>
+                    <p>在我的空闲时间，我喜欢录制编程教程视频分享到B站，帮助初学者更好地理解前端开发。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer glass-effect">
+        <p>© 2023 张明个人主页. 保留所有权利. | 最后更新: 2023年10月</p>
+        <p class="footer-note">本页面使用纯HTML/CSS实现，具有Windows Vista风格的毛玻璃效果</p>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
